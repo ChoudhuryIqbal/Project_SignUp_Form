@@ -1,13 +1,19 @@
-body {
-    background-color: antiquewhite;
-}
-
-.body {
-    display: flex;
-    justify-content: space-between;
-}
-
-.bgImage {
-    display: flex;
-    justify-content: center;
-}
+    .body {
+        display: flex;
+        background-color: white;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    
+    .left {
+        display: flex;
+        justify-content: center;
+        background-color: green;
+        height: 700px;
+    }
+    
+    .right {
+        justify-content: center;
+        background-color: red;
+        width: 800px;
+    }
