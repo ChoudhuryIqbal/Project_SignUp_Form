@@ -12,21 +12,25 @@
     }
     
     .bg {
-        height: 700px;
+        height: 100%;
         width: 450px;
     }
     
     .logo {
         position: absolute;
-        top: 100px;
+        top: 98px;
         left: 0px;
         height: 200px;
         width: 450px;
         opacity: 0.7;
+        margin: 0px;
+        padding: 0px;
     }
     
     .left {
         position: relative;
+        margin: 0px;
+        padding: 0px;
     }
     
     .right {
@@ -34,6 +38,8 @@
         background-color: red;
         display: flex;
         flex-direction: column;
+        margin: 0px;
+        padding: 0px;
     }
     
     .top-section {
@@ -49,6 +55,6 @@
     }
     
     .bottom-section {
-        height: 33.34%;
+        height: 33.33%;
         background-color: aqua;
     }
