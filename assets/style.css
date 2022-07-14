@@ -1,6 +1,14 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
     .body {
         display: flex;
         background-color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0px;
     }
     
     .bg {
@@ -31,6 +39,8 @@
     .top-section {
         height: 33.33%;
         background-color: greenyellow;
+        margin: 0px;
+        padding: 0px;
     }
     
     .mid-section {
