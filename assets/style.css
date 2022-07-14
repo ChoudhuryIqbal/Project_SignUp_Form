@@ -24,4 +24,21 @@
     .right {
         justify-content: center;
         background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .top-section {
+        height: 33.33%;
+        background-color: greenyellow;
+    }
+    
+    .mid-section {
+        height: 33.33%;
+        background-color: green;
+    }
+    
+    .bottom-section {
+        height: 33.34%;
+        background-color: aqua;
     }
