@@ -35,7 +35,6 @@
     
     .right {
         justify-content: center;
-        background-color: red;
         display: flex;
         flex-direction: column;
         margin: 0px;
@@ -44,9 +43,10 @@
     
     .top-section {
         height: 33.33%;
-        background-color: greenyellow;
+        background-color: rgb(251, 249, 249);
         margin: 0px;
         padding: 0px;
+        font-size: 20px;
     }
     
     .mid-section {
@@ -54,7 +54,30 @@
         background-color: green;
     }
     
+    .mid-section>p {
+        margin-left: 40px;
+    }
+    
     .bottom-section {
         height: 33.33%;
         background-color: aqua;
+    }
+    
+    #firstPara {
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-right: 40px;
+    }
+    
+    #secondPara {
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: flex-start;
+        gap: 100px;
+        padding-left: 40px;
     }
